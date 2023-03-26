@@ -1,0 +1,3 @@
+INSERT INTO `role` (`id`, `name`, `introduce`, `roleChar`, `status`, `isDelete`, `spaceId`, `createdAt`, `updatedAt`) VALUES (1, '超级管理员', '拥有管理该系统的权限', 'Admin', 1, 0, NULL, '2023-03-09 11:53:24', '2023-03-09 11:53:24');
+INSERT INTO `role` (`id`, `name`, `introduce`, `roleChar`, `status`, `isDelete`, `spaceId`, `createdAt`, `updatedAt`) VALUES (2, '空间主', '拥有管理自己空间的权限', 'Space Master', 1, 0, NULL, '2023-03-09 11:53:24', '2023-03-09 11:53:24');
+INSERT INTO `role` (`id`, `name`, `introduce`, `roleChar`, `status`, `isDelete`, `spaceId`, `createdAt`, `updatedAt`) VALUES (3, '普通用户', '拥有管理该系统的权限', 'Ordinary User', 1, 0, NULL, '2023-03-09 11:53:24', '2023-03-09 11:53:24');
