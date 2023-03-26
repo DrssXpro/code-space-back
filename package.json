@@ -21,11 +21,11 @@
     "md5": "^2.3.0",
     "mysql2": "^2.3.3",
     "nodemailer": "^6.7.3",
+    "qiniu": "^7.8.0",
     "sequelize": "^6.28.0",
     "uuid": "^9.0.0"
   },
   "devDependencies": {
-    "nodemon": "^2.0.20",
-    "qiniu": "^7.8.0"
+    "nodemon": "^2.0.20"
   }
 }
