@@ -10,10 +10,10 @@ const codeSpaceModel = require("./model/code_space_model");
 const emailCodeModel = require("./model/emailCode_model");
 
 menuModel.belongsToMany(roleModel, {
-  through: "menuRole",
+  through: "menurole",
 });
 roleModel.belongsToMany(menuModel, {
-  through: "menuRole",
+  through: "menurole",
 });
 
 module.exports = {
