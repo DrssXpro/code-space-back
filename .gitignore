@@ -15,6 +15,7 @@ dist
 dist-ssr
 coverage
 *.local
+/src/config/config.js
 
 /cypress/videos/
 /cypress/screenshots/
